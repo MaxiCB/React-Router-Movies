@@ -17,7 +17,6 @@ const App = () => {
       <Route exact path="/movies/:id" render={(props) => <Movie {...props}
       addToSavedList={addToSavedList} />} />
       <SavedList list={savedList}/>
-      <div>Replace this Div with your Routes</div>
     </div>
   );
 };
